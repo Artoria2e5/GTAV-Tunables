@@ -1,9 +1,12 @@
 const fs = require('fs');
 const upath = require('upath');
 const LRUCache = require('lru-cache');
-const { findKey, mapToObject, stripHexPrefix } = require('../utils');
+const { findKey, mapToObject, stripHexPrefix, invertOther, findOtherKey, invertTunablesSum, findTunablesSumKey } = require('../utils');
 const CONFIG = require('../config');
 const dictionary = require(upath.normalize(`../static/${CONFIG.FILE_NAMES.DICTIONARY}`));
+
+const iother = invertOther(dictionary.other);
+const isum = invertTunablesSum(dictionary.tunables);
 
 const cache = new LRUCache({
     max: 3000,
@@ -14,9 +17,10 @@ let totalDecryptedTunables;
 let previousContext = null;
 let tunablesMap = new Map();
 
-console.log('Decrypting ...');
+console.log('Decoding the decrypted dump ...');
 
-CONFIG.PLATFORMS.slice(CONFIG.DEBUG ? 5 : 0).forEach((platform, index) => {
+console.profile("postdecrypt");
+CONFIG.PLATFORMS.slice(0).forEach((platform, index) => {
     const encryptedPath = upath.normalize(`./${CONFIG.FILE_NAMES.ENCRYPTED}`.replace(new RegExp('{platform}', 'g'), platform));
     const decryptedPath = upath.normalize(`./${CONFIG.FILE_NAMES.DECRYPTED}`.replace(new RegExp('{platform}', 'g'), platform));
 
@@ -92,7 +96,7 @@ function lookupTunable(key, value, platform, missingName = false) {
     }
 
     if (typeof value === 'number') {
-        const dictionaryKey = cache.get(value) ?? findKey(dictionary.other, x => x == value);
+        const dictionaryKey = cache.get(value) ?? findOtherKey(iother, value);
         if (dictionaryKey) {
             value = dictionaryKey.toUpperCase();
             cache.set(value, dictionaryKey);
@@ -121,7 +125,7 @@ function lookupTunable(key, value, platform, missingName = false) {
             totalDecryptedTunables++;
             return true;
         } else {
-            const dictionaryKey = findKey(dictionary.tunables, x => x.sum[contextKey].includes(keyWithoutPrefix));
+            const dictionaryKey = findTunablesSumKey(isum, contextKey, keyWithoutPrefix);
             if (dictionaryKey) {
                 if (CONFIG.DEBUG) console.log(`found key ${key} in ${contextKey} as ${dictionaryKey}`);
                 const isRootContent = dictionaryKey.includes('ROOT_CONTENT_ID');
@@ -148,7 +152,7 @@ function lookupTunable(key, value, platform, missingName = false) {
             totalDecryptedTunables++;
             return true;
         } else {
-            const dictionaryKey = findKey(dictionary.tunables, x => x.sum[contextKey].includes(keyWithoutPrefix));
+            const dictionaryKey = findTunablesSumKey(isum, contextKey, keyWithoutPrefix);
             if (dictionaryKey) {
                 if (CONFIG.DEBUG) console.log(`found key ${key} in ${contextKey} as ${dictionaryKey}`);
                 const isRootContent = dictionaryKey.includes('ROOT_CONTENT_ID');
@@ -162,5 +166,5 @@ function lookupTunable(key, value, platform, missingName = false) {
     }
     return false;
 }
-
+console.profileEnd("postdecrypt");
 cache.clear();

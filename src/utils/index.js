@@ -18,6 +18,38 @@ function findKey(obj, predicate = o => o) {
     return Object.keys(obj).find(key => predicate(obj[key], key, obj));
 }
 
+
+// findKey(dictionary.other, x => x == value);
+function invertOther(other) {
+    const inverted = {};
+    for (const [key, value] of Object.entries(other)) {
+        inverted[value] = key;
+    }
+    return inverted;
+}
+function findOtherKey(iother, value) {
+    return iother[value];
+}
+
+
+// findKey(dictionary.tunables, x => x.sum[contextKey] == keyWithoutPrefix);
+function invertTunablesSum(tunables) {
+    const inverted = {};
+    for (const [key, value] of Object.entries(tunables)) {
+        for (const [contextKey, contextValue] of Object.entries(value.sum)) {
+            if (!inverted[contextKey]) inverted[contextKey] = {};
+            inverted[contextKey][contextValue] = key;
+        }
+    }
+    return inverted;
+}
+function findTunablesSumKey(isum, contextKey, value) {
+    if (isum[contextKey]) {
+        return isum[contextKey][value];
+    }
+}
+
+
 function mapToObject(m) {
     let lo = {}
     for (let [k, v] of m) {
@@ -50,6 +82,10 @@ module.exports = {
     set,
     omit,
     findKey,
+    invertOther,
+    findOtherKey,
+    invertTunablesSum,
+    findTunablesSumKey,
     mapToObject,
     objectToMap,
     stripHexPrefix,

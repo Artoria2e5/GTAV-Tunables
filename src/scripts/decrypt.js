@@ -21,10 +21,13 @@ function decryptTunablesToHex(encrypted, platform) {
             }, null, 4);
 };
 
-CONFIG.PLATFORMS.slice(CONFIG.DEBUG ? 5 : 0).forEach(platform => {
+console.profile("decrypt");
+console.log("AES-Dcrypting ...")
+CONFIG.PLATFORMS.slice(0).forEach(platform => {
     const url = CONFIG.URLS.TUNABLES.replace(new RegExp('{platform}', 'g'), platform);
     const path = upath.normalize(`./${CONFIG.FILE_NAMES.ENCRYPTED}`.replace(new RegExp('{platform}', 'g'), platform));
     return http.get(url).then(res => {
         fs.writeFile(path, beautify(decryptTunablesToHex(res.content, platform)), null, () => { if (CONFIG.DEBUG) console.log(`${platform.toUpperCase()} Encrypted Tunables downloaded`); });
     })
 });
+console.profileEnd("decrypt");
