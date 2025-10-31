@@ -1,6 +1,6 @@
 const fs = require('fs');
 const upath = require('upath');
-const http = require('http-wrapper');
+const { getGithubFile } = require('../utils/http');
 const joaat = require('../lib/joaat');
 const CONFIG = require('../config');
 const jobsDictionary = require(upath.normalize(`../static/${CONFIG.FILE_NAMES.JOBS_DICTIONARY}`));
@@ -15,8 +15,8 @@ console.profile("predecrypt");
 
 // Getting TUNABLE_NAMES and GTA_DICTIONARY has no dependency on any other variable,
 // so spawn independent promises for them both to speed things up.
-const parse_tune_ctx = http.get(CONFIG.URLS.TUNABLE_NAMES).then(function parse_tunables(response) {
-    for (const line of response.content.toString().split(/\r?\n/)) {
+const parse_tune_ctx = getGithubFile(CONFIG.URLS.TUNABLE_NAMES).then(function parse_tunables({ text }) {
+    for (const line of text.split(/\r?\n/)) {
         if (line.length) {
             const { unsigned: uhash } = joaat(line);
             const hash = joaat.hex(uhash);
@@ -31,8 +31,8 @@ const parse_tune_ctx = http.get(CONFIG.URLS.TUNABLE_NAMES).then(function parse_t
     }
 });
 
-const parse_other_dict = http.get(CONFIG.URLS.GTA_DICTIONARY).then(function parse_gta_dict(response) {
-    for (const line of response.content.toString().split(/\r?\n/)) {
+const parse_other_dict = getGithubFile(CONFIG.URLS.GTA_DICTIONARY).then(function parse_gta_dict({ text }) {
+    for (const line of text.split(/\r?\n/)) {
         if (line.length) {
             const [hash, key] = line.split('\t');
             other[key] = hash;
@@ -45,8 +45,8 @@ const parse_other_dict = http.get(CONFIG.URLS.GTA_DICTIONARY).then(function pars
 });
 
 // This one has a potential to fight over "other", but because JS async is single-threaded, nothing bad will happen.
-const parse_other_labels = http.get(CONFIG.URLS.GTA_LABELS_DICTIONARY).then(function parse_gta_labels_dict(response) {
-    for (const line of response.content.toString().split(/\r?\n/)) {
+const parse_other_labels = getGithubFile(CONFIG.URLS.GTA_LABELS_DICTIONARY).then(function parse_gta_labels_dict({ text }) {
+    for (const line of text.split(/\r?\n/)) {
         if (line.length) {
             other[line] = joaat(line).signed.toString();
         }
