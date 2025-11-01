@@ -1,14 +1,20 @@
 const fs = require('fs');
 const upath = require('upath');
-const { getGithubFile } = require('../utils/http');
+const { getGithubFile } = require('../utils');
 const joaat = require('../lib/joaat');
 const CONFIG = require('../config');
 const jobsDictionary = require(upath.normalize(`../static/${CONFIG.FILE_NAMES.JOBS_DICTIONARY}`));
+const outpath = upath.normalize(`./src/static/${CONFIG.FILE_NAMES.DICTIONARY}`)
 
 const contexts = {};
 const tunables = {};
 const jobs = {};
 const other = {};
+
+if (!CONFIG.REBUILD_DICTIONARY && fs.existsSync(outpath)) {
+    console.log('Rebuild dictionary is disabled. Skipping dictionary generation.');
+    process.exit(0);
+}
 
 // To help figure out what takes so long.
 console.profile("predecrypt");
@@ -18,12 +24,14 @@ console.profile("predecrypt");
 const parse_tune_ctx = getGithubFile(CONFIG.URLS.TUNABLE_NAMES).then(function parse_tunables({ text }) {
     for (const line of text.split(/\r?\n/)) {
         if (line.length) {
-            const { unsigned: uhash } = joaat(line);
+            const { unsigned: uhash, signed: shash } = joaat(line);
             const hash = joaat.hex(uhash);
             tunables[line] = { hash, sum: {} };
+            // Safety
+            other[line] = hash;
             for (const context of CONFIG.TUNABLE_CONTEXTS) {
                 const contextJoaat = joaat(context);
-                // Only signed is used for now
+                // Only signed is used for now, might as well
                 contexts[context] = { signed: contextJoaat.signed };
                 tunables[line].sum[context] = (uhash + contextJoaat.unsigned).toString(16).toUpperCase();
             }
@@ -54,7 +62,7 @@ const parse_other_labels = getGithubFile(CONFIG.URLS.GTA_LABELS_DICTIONARY).then
 });
 
 Promise.all([parse_tune_ctx, parse_other_dict, parse_other_labels]).then(function write_dictionary() {
-    fs.writeFile(upath.normalize(`./src/static/${CONFIG.FILE_NAMES.DICTIONARY}`), JSON.stringify({
+    fs.writeFile(outpath, JSON.stringify({
         contexts,
         tunables,
         jobs,

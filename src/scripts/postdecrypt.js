@@ -8,6 +8,9 @@ const dictionary = require(upath.normalize(`../static/${CONFIG.FILE_NAMES.DICTIO
 const iother = invertOther(dictionary.other);
 const isum = invertTunablesSum(dictionary.tunables);
 
+delete dictionary.other;
+delete dictionary.tunables;
+
 const cache = new LRUCache({
     max: 3000,
 });
@@ -85,11 +88,11 @@ function lookupTunable(key, value, platform, missingName = false) {
     const keyWithoutPrefix = stripHexPrefix(key);
 
     // TODO: Find a better way to do handle these edge cases
-    if (key.includes('8B7D3320')) {
+    if (key == '8B7D3320') {
         return false;
     }
 
-    if (key.includes('52BDAF86')) {
+    if (key == '52BDAF86') {
         saveTunable('MP_Global', '_0x19EEFD4F', value);
         totalDecryptedTunables++;
         return true;
@@ -120,8 +123,9 @@ function lookupTunable(key, value, platform, missingName = false) {
         if (missingName) {
             const hashSigned = parseInt(keyWithoutPrefix, 16) - contextValue.signed;
             const reversedHash = '_0x'.concat((hashSigned >>> 0).toString(16).toLocaleUpperCase().padStart(8, '0'));
-            if (CONFIG.DEBUG) console.log(`Reversed key ${key} in ${contextKey} as ${reversedHash}`);
-            saveTunable(contextKey, reversedHash, value);
+            const key2 = findOtherKey(iother, hashSigned);
+            if (CONFIG.DEBUG) console.log(`Reversed key ${key} in ${contextKey} as ${reversedHash} [${key2 ? key2 : '?'}]`);
+            saveTunable(contextKey, reversedHash, { v: value, k: key2 });
             totalDecryptedTunables++;
             return true;
         } else {
@@ -146,8 +150,9 @@ function lookupTunable(key, value, platform, missingName = false) {
         if (missingName && !isModifier) {
             const hashSigned = parseInt(keyWithoutPrefix, 16) - contextValue.signed;
             const reversedHash = '_0x'.concat((hashSigned >>> 0).toString(16).toLocaleUpperCase().padStart(8, '0'));
-            if (CONFIG.DEBUG) console.log(`Reversed key ${key} in ${contextKey} as ${reversedHash}`);
-            saveTunable(contextKey, reversedHash, value);
+            const key2 = findOtherKey(iother, hashSigned);
+            if (CONFIG.DEBUG) console.log(`Reversed key ${key} in ${contextKey} as ${reversedHash} [${key2 ? key2 : '?'}]`);
+            saveTunable(contextKey, reversedHash, { v: value, k: key2 });
             previousContext = { contextKey, contextValue };
             totalDecryptedTunables++;
             return true;

@@ -24,9 +24,17 @@
     ],
     "tunables": {
         "BASE_GLOBALS": {
-            "_0xFCE5B094": "CLO_AWF_O_B_6",
-            "_0xFD1140C0": 0,
-            "_0xFE15AF20": 113939,
+            "_0xFCE5B094": {
+                "v": "CLO_AWF_O_B_6",
+                "k": "individual_clothing_sale_hash_labels_6"
+            },
+            "_0xFD1140C0": {
+                "v": 0,
+                "k": "dlc_flame_skull_hockey"
+            },
+            "_0xFE15AF20": {
+                "v": 113939
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_15_PROFESSIONAL_5": 0,
             "CAR_MEET_PRIZE_VEHICLE_CHALLENGE_PARAM_TWO": 1,
             "TATTOOS_XMAS14_8_BALL_SKULL": 0,
@@ -39,7 +47,9 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_8_PROFESSIONAL_4": 0,
             "LUXURY_SHOWCASE_VEHICLE_1_COLOUR_6": 0,
             "PROMO_TEST_DRIVE_VEHICLE_1_COLOUR_5": 0,
-            "_0x36CA27E1": 3,
+            "_0x36CA27E1": {
+                "v": 3
+            },
             "INDIVIDUAL_HAIRCUT_SALE_HASH_LABELS_4": "CC_MKUP_67",
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_5_PROFESSIONAL_2": 0,
             "NPCFLOWINVITE9": 105,
@@ -51,14 +61,21 @@
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_15": 81690,
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_143": "CLO_AWM_O_F_5",
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_6": 0,
-            "_0xF84440E4": 2,
-            "_0x45ABC5A4": 2,
+            "_0xF84440E4": {
+                "v": 2
+            },
+            "_0x45ABC5A4": {
+                "v": 2
+            },
             "NPCFLOWINVITE1": 105,
             "NPCFLOWINVITE2": 119,
             "NPCFLOWINVITE3": 105,
             "NPCFLOWINVITE4": 123,
             "NPCFLOWINVITE5": 105,
-            "_0xFDE8A039": 119,
+            "_0xFDE8A039": {
+                "v": 119,
+                "k": "npcflowinvite6"
+            },
             "NPCFLOWINVITE7": 105,
             "NPCFLOWINVITE8": 122,
             "NPCFLOWINVITE10": 119,
@@ -85,7 +102,10 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_10_PROFESSIONAL_2": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_11_PROFESSIONAL_2": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_12_PROFESSIONAL_2": 0,
-            "_0xFB3F1E6C": 0,
+            "_0xFB3F1E6C": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_13_professional_2"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_14_PROFESSIONAL_2": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_15_PROFESSIONAL_2": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_16_PROFESSIONAL_2": 0,
@@ -101,7 +121,10 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_1_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_2_PROFESSIONAL_3": 0,
-            "_0xFF567AA0": 0,
+            "_0xFF567AA0": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_3_professional_3"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_4_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_5_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_6_PROFESSIONAL_3": 0,
@@ -109,17 +132,26 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_8_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_9_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_10_PROFESSIONAL_3": 0,
-            "_0xF6F8A594": 0,
+            "_0xF6F8A594": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_11_professional_3"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_12_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_13_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_14_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_15_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_16_PROFESSIONAL_3": 0,
-            "_0xF5B9AD07": 0,
+            "_0xF5B9AD07": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_17_professional_3"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_18_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_19_PROFESSIONAL_3": 0,
             "FM_CORONA_PLAYLIST_LENGTH_PROFESSIONAL_3": 0,
-            "_0xFF1FAAAD": 0,
+            "_0xFF1FAAAD": {
+                "v": 0,
+                "k": "fm_profesional_corona_type_3"
+            },
             "FM_PROFESIONAL_CORONA_NUM_3": 0,
             "FM_CORONA_PLAYLIST_PROFFESIONAL_BLIPNUMBER_4": 0,
             "FM_CORONA_PLAYLIST_PROFFESIONAL_NUMBER_4_MIN": 0,
@@ -138,20 +170,32 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_12_PROFESSIONAL_4": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_13_PROFESSIONAL_4": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_14_PROFESSIONAL_4": 0,
-            "_0xF7160C32": 0,
+            "_0xF7160C32": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_15_professional_4"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_16_PROFESSIONAL_4": 0,
-            "_0xFFA7C0E3": 0,
+            "_0xFFA7C0E3": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_17_professional_4"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_18_PROFESSIONAL_4": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_19_PROFESSIONAL_4": 0,
             "FM_CORONA_PLAYLIST_LENGTH_PROFESSIONAL_4": 0,
             "FM_PROFESIONAL_CORONA_TYPE_4": 0,
             "FM_PROFESIONAL_CORONA_NUM_4": 0,
             "FM_CORONA_PLAYLIST_PROFFESIONAL_BLIPNUMBER_5": 0,
-            "_0xF64E4B3A": 0,
+            "_0xF64E4B3A": {
+                "v": 0,
+                "k": "fm_corona_playlist_proffesional_number_5_min"
+            },
             "FM_CORONA_PLAYLIST_PROFFESIONAL_NUMBER_5_MAX": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_5": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_1_PROFESSIONAL_5": 0,
-            "_0xF6612E81": 0,
+            "_0xF6612E81": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_2_professional_5"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_3_PROFESSIONAL_5": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_4_PROFESSIONAL_5": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_5_PROFESSIONAL_5": 0,
@@ -196,7 +240,10 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_11_PROFESSIONAL_6": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_12_PROFESSIONAL_6": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_13_PROFESSIONAL_6": 0,
-            "_0xF7B37E38": 0,
+            "_0xF7B37E38": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_14_professional_6"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_15_PROFESSIONAL_6": 0,
             "FM_CORONA_PLAYLIST_LENGTH_PROFESSIONAL_6": 0,
             "PROFESIONALCORONATYPE_6": -1,
@@ -220,12 +267,18 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_16_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_17_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_18_PROFESSIONAL_7": 0,
-            "_0xFAFB10FB": 0,
+            "_0xFAFB10FB": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_19_professional_7"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_20_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_21_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_22_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_23_PROFESSIONAL_7": 0,
-            "_0xF63D9C4B": 0,
+            "_0xF63D9C4B": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_24_professional_7"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_25_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_26_PROFESSIONAL_7": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_27_PROFESSIONAL_7": 0,
@@ -270,14 +323,20 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_9_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_10_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_11_PROFESSIONAL_9": 0,
-            "_0xFC2E327E": 0,
+            "_0xFC2E327E": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_12_professional_9"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_13_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_14_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_15_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_16_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_17_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_18_PROFESSIONAL_9": 0,
-            "_0xFF11992C": 0,
+            "_0xFF11992C": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_19_professional_9"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_20_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_21_PROFESSIONAL_9": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_22_PROFESSIONAL_9": 0,
@@ -302,7 +361,10 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_9_PROFESSIONAL_11": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_10_PROFESSIONAL_11": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_11_PROFESSIONAL_11": 0,
-            "_0xFF3D128A": 0,
+            "_0xFF3D128A": {
+                "v": 0,
+                "k": "fm_corona_playlist_root_content_id_12_professional_11"
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_13_PROFESSIONAL_11": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_14_PROFESSIONAL_11": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_15_PROFESSIONAL_11": 0,
@@ -349,7 +411,9 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_5_PROFESSIONAL_17": -1601848815,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_6_PROFESSIONAL_17": -1440166761,
             "FM_CORONA_PLAYLIST_LENGTH_PROFESSIONAL_17": 7,
-            "_0xCB9DFC42": -1,
+            "_0xCB9DFC42": {
+                "v": -1
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_18": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_1_PROFESSIONAL_18": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_2_PROFESSIONAL_18": 0,
@@ -365,7 +429,9 @@
             "PROFESIONALCORONATYPE_18": -1,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_19": 0,
             "FMCORONAPLAYLISTPROFFESIONALNUMCORONAS_19": 0,
-            "_0xF59417FF": -1,
+            "_0xF59417FF": {
+                "v": -1
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_21": -847080876,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_1_PROFESSIONAL_21": 1640000690,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_2_PROFESSIONAL_21": 2060948126,
@@ -379,9 +445,13 @@
             "FM_CORONA_PLAYLIST_LENGTH_PROFESSIONAL_21": 10,
             "FMCORONAPLAYLISTPROFFESIONALNUMCORONAS_22": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_22": 0,
-            "_0x67E1B757": false,
+            "_0x67E1B757": {
+                "v": false
+            },
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_23": 846282902,
-            "_0x9D5F7747": 0,
+            "_0x9D5F7747": {
+                "v": 0
+            },
             "FM_CORONA_PLAYLIST_LENGTH_PROFESSIONAL_0": 1,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_0_PROFESSIONAL_0": -1556328366,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_1_PROFESSIONAL_0": 0,
@@ -390,7 +460,10 @@
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_4_PROFESSIONAL_0": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_5_PROFESSIONAL_0": 0,
             "FM_CORONA_PLAYLIST_ROOT_CONTENT_ID_6_PROFESSIONAL_0": 0,
-            "_0xF4E51832": 7,
+            "_0xF4E51832": {
+                "v": 7,
+                "k": "fm_corona_playlist_veh_class_bs_id_0_professional"
+            },
             "BOOT_BUTTON_QUICK_MATCH_TYPE": 206,
             "TIMETRIALVARIATION": 28,
             "CASINO_PRIZE_VEHICLE_MODEL_HASH": "PENETRATOR",
@@ -401,7 +474,10 @@
             "CASINO_PRIZE_VEHICLE_COLOUR_5": 0,
             "CASINO_PRIZE_VEHICLE_COLOUR_6": 0,
             "CASINO_PRIZE_VEHICLE_LIVERY": 0,
-            "_0xF954CEE8": 0.53,
+            "_0xF954CEE8": {
+                "v": 0.53,
+                "k": "prize_vehicle_z_offset"
+            },
             "CAR_MEET_PRIZE_VEHICLE_CHALLENGE_ID": 4,
             "CAR_MEET_PRIZE_VEHICLE_CHALLENGE_PARAM_ONE": 2,
             "CAR_MEET_PRIZE_VEHICLE_ITERATION": 219,
@@ -421,7 +497,10 @@
             "CAR_MEET_PRIZE_VEHICLE_COORD_OFFSET_Z": 0.615,
             "CAR_MEET_PRIZE_VEHICLE_ROTATION_OFFSET_X": -8.5,
             "PROMO_TEST_DRIVE_VEHICLE_1_MODEL_HASH": "VACCA",
-            "_0xF757D28E": 135,
+            "_0xF757D28E": {
+                "v": 135,
+                "k": "promo_test_drive_vehicle_1_colour_1"
+            },
             "PROMO_TEST_DRIVE_VEHICLE_1_COLOUR_2": 3,
             "PROMO_TEST_DRIVE_VEHICLE_1_EXTRA_COLOUR_1": 135,
             "PROMO_TEST_DRIVE_VEHICLE_1_EXTRA_COLOUR_2": 156,
@@ -429,11 +508,17 @@
             "PROMO_TEST_DRIVE_VEHICLE_1_LIVERY": 0,
             "PROMO_TEST_DRIVE_VEHICLE_2_MODEL_HASH": "BLADE",
             "PROMO_TEST_DRIVE_VEHICLE_2_COLOUR_1": 92,
-            "_0xF78CE951": 120,
+            "_0xF78CE951": {
+                "v": 120,
+                "k": "promo_test_drive_vehicle_2_colour_2"
+            },
             "PROMO_TEST_DRIVE_VEHICLE_2_EXTRA_COLOUR_1": 92,
             "PROMO_TEST_DRIVE_VEHICLE_2_EXTRA_COLOUR_2": 156,
             "PROMO_TEST_DRIVE_VEHICLE_2_COLOUR_5": 0,
-            "_0xF7DAE9F5": 0,
+            "_0xF7DAE9F5": {
+                "v": 0,
+                "k": "promo_test_drive_vehicle_2_colour_6"
+            },
             "PROMO_TEST_DRIVE_VEHICLE_2_LIVERY": 0,
             "PROMO_TEST_DRIVE_VEHICLE_3_MODEL_HASH": "STAFFORD",
             "PROMO_TEST_DRIVE_VEHICLE_3_COLOUR_1": 12,
@@ -464,7 +549,10 @@
             "LUXURY_SHOWCASE_VEHICLE_2_LIVERY": 9,
             "LUXURY_SHOWCASE_VEHICLE_2_WHEEL_TYPE": 7,
             "LUXURY_SHOWCASE_VEHICLE_2_WHEEL_ID": 9,
-            "_0xFAF1E6CD": 1,
+            "_0xFAF1E6CD": {
+                "v": 1,
+                "k": "luxury_showcase_vehicle_2_window_tint_colour"
+            },
             "LUXURY_SHOWCASE_VEHICLE_2_XENON_LIGHTS": 0,
             "SIMEON_TEST_DRIVE_VEHICLE_1_MODEL_HASH": "GT500",
             "SIMEON_TEST_DRIVE_VEHICLE_1_COLOUR_1": 73,
@@ -477,13 +565,19 @@
             "SIMEON_TEST_DRIVE_VEHICLE_1_WHEEL_TYPE": 2,
             "SIMEON_TEST_DRIVE_VEHICLE_1_WHEEL_ID": 2,
             "SIMEON_TEST_DRIVE_VEHICLE_1_WINDOW_TINT_COLOUR": 1,
-            "_0xF4E1FD6A": 0,
+            "_0xF4E1FD6A": {
+                "v": 0,
+                "k": "simeon_test_drive_vehicle_1_xenon_lights"
+            },
             "SIMEON_TEST_DRIVE_VEHICLE_2_MODEL_HASH": "SEVEN70",
             "SIMEON_TEST_DRIVE_VEHICLE_2_COLOUR_1": 30,
             "SIMEON_TEST_DRIVE_VEHICLE_2_COLOUR_2": 3,
             "SIMEON_TEST_DRIVE_VEHICLE_2_EXTRA_COLOUR_1": 0,
             "SIMEON_TEST_DRIVE_VEHICLE_2_EXTRA_COLOUR_2": 0,
-            "_0xFB69FBCB": 0,
+            "_0xFB69FBCB": {
+                "v": 0,
+                "k": "simeon_test_drive_vehicle_2_colour_5"
+            },
             "SIMEON_TEST_DRIVE_VEHICLE_2_COLOUR_6": 0,
             "SIMEON_TEST_DRIVE_VEHICLE_2_LIVERY": 0,
             "SIMEON_TEST_DRIVE_VEHICLE_2_WHEEL_TYPE": 7,
@@ -544,21 +638,39 @@
             "ENABLE_GAUNTLET4_DRIFT_TUNING_UPGRADE": true,
             "ENABLE_CHAVOSV6_DRIFT_TUNING_UPGRADE": true,
             "ENABLE_DOMINATOR10_DRIFT_TUNING_UPGRADE": true,
-            "_0xDC6BFC38": 2147483647,
-            "_0xA9B496CA": 1073741823,
-            "_0xC340012E": 1073741823,
-            "_0x4D0A1D8C": true,
+            "_0xDC6BFC38": {
+                "v": 2147483647
+            },
+            "_0xA9B496CA": {
+                "v": 1073741823
+            },
+            "_0xC340012E": {
+                "v": 1073741823
+            },
+            "_0x4D0A1D8C": {
+                "v": true
+            },
             "TYCOON25_ENABLE_ODD_JOB_SECURITY_TRANSPORTER": true,
             "TYCOON25_ENABLE_ODD_JOB_MEDICAL_COURIER": true,
-            "_0x0BE1A54B": false,
-            "_0x5EE0A541": false,
+            "_0x0BE1A54B": {
+                "v": false
+            },
+            "_0x5EE0A541": {
+                "v": false
+            },
             "ENABLE_DLC_1_2025_CONSTRUCTION": false,
-            "_0xB456555B": true,
-            "_0x379D5262": true,
+            "_0xB456555B": {
+                "v": true
+            },
+            "_0x379D5262": {
+                "v": true
+            },
             "ENABLE_DLC_1_2025_VEHICLE_RACE_CREATOR": 262143,
             "ENABLE_DLC_1_2025_VEHICLE_CREATORS": 262143,
             "ENABLE_DLC_1_2025_VEHICLE_TRANSFORM": 262143,
-            "_0xEB918D15": 1,
+            "_0xEB918D15": {
+                "v": 1
+            },
             "PERM_CLOTHING_FOR_VEHICLE_PURCHASE_VEHICLE1": "POLICEB2",
             "PERM_CLOTHING_FOR_VEHICLE_PURCHASE_CLOTHING_MALE1": -1211179857,
             "PERM_CLOTHING_FOR_VEHICLE_PURCHASE_CLOTHING_FEMALE1": -226731595,
@@ -578,20 +690,44 @@
             "LAUNCHPOSIX_VEHICLE_12": 1746459015,
             "LAUNCHPOSIX_VEHICLE_13": 1746459015,
             "LAUNCHPOSIX_VEHICLE_14": 1746459015,
-            "_0xFD5279E6": 1746459015,
+            "_0xFD5279E6": {
+                "v": 1746459015
+            },
             "LAUNCHPOSIX_VEHICLE_16": 1746459015,
             "LAUNCHPOSIX_VEHICLE_17": 1746459015,
-            "_0x65955342": 512,
-            "_0xBC10BF4B": 0,
-            "_0xBFF7CF5B": 256,
-            "_0x706E11DE": 32,
-            "_0xB2741DE6": 64,
-            "_0xE29A055B": 2,
-            "_0x0E4F0B6A": 512,
-            "_0x5E747611": 256,
-            "_0x49C21001": 512,
-            "_0xAB5841E3": 128,
-            "_0xC204DBE3": 7,
+            "_0x65955342": {
+                "v": 512
+            },
+            "_0xBC10BF4B": {
+                "v": 0
+            },
+            "_0xBFF7CF5B": {
+                "v": 256
+            },
+            "_0x706E11DE": {
+                "v": 32
+            },
+            "_0xB2741DE6": {
+                "v": 64
+            },
+            "_0xE29A055B": {
+                "v": 2
+            },
+            "_0x0E4F0B6A": {
+                "v": 512
+            },
+            "_0x5E747611": {
+                "v": 256
+            },
+            "_0x49C21001": {
+                "v": 512
+            },
+            "_0xAB5841E3": {
+                "v": 128
+            },
+            "_0xC204DBE3": {
+                "v": 7
+            },
             "SALV23_VEH_ROBBERY_WEEK_ID": 99,
             "SALV23_VEHICLE_ROBBERY_0": 4,
             "SALV23_VEHICLE_ROBBERY_1": 2,
@@ -626,7 +762,10 @@
             "XM22_GUN_VAN_SLOT_WEAPON_TYPE_6": "WEAPON_RAYCARBINE",
             "XM22_GUN_VAN_SLOT_WEAPON_TYPE_7": 0,
             "XM22_GUN_VAN_SLOT_WEAPON_TYPE_8": 0,
-            "_0xFEBF9197": 0,
+            "_0xFEBF9197": {
+                "v": 0,
+                "k": "xm22_gun_van_slot_weapon_type_9"
+            },
             "XM22_GUN_VAN_SLOT_THROWABLE_TYPE_0": "WEAPON_STICKYBOMB",
             "XM22_GUN_VAN_SLOT_THROWABLE_TYPE_1": "WEAPON_SMOKEGRENADE",
             "XM22_GUN_VAN_SLOT_THROWABLE_TYPE_2": "WEAPON_PIPEBOMB",
@@ -651,8 +790,13 @@
             "XM22_GUN_VAN_SLOT_ARMOUR_DISCOUNT_4": 0.1,
             "HACKER24_FOCUS_ROBBERY": 0,
             "HACKER24_ROBBERY_WEEK_ID": 47,
-            "_0xFFC69CD1": true,
-            "_0x736DD836": true,
+            "_0xFFC69CD1": {
+                "v": true,
+                "k": "enable_clothing_parachute_bag_halloween"
+            },
+            "_0x736DD836": {
+                "v": true
+            },
             "MASK_OVERSIZED_SKULL_MASK_3": true,
             "TRICK_OR_TREAT_RP": 2000,
             "TRICK_OR_TREAT_CASH": 10000,
@@ -678,27 +822,40 @@
             "VC_ACE_OF_CLUBS": 59444,
             "VC_ACE_OF_DIAMONDS": 60555,
             "ENABLE_HALLOWEEN_GHOSTHUNT": true,
-            "_0xCF3E66FE": true,
-            "_0x0C33A808": true,
+            "_0xCF3E66FE": {
+                "v": true
+            },
+            "_0x0C33A808": {
+                "v": true
+            },
             "SSP2POSIX": 1760421600,
             "SSP2WEATHER": true,
-            "_0xFB294F5B": true,
+            "_0xFB294F5B": {
+                "v": true
+            },
             "STANDARDCONTROLLERVOLUME": 1,
             "NC_SOURCE_TRUCK_HEAD_COUNT": 3,
-            "_0xF6020016": 1,
+            "_0xF6020016": {
+                "v": 1
+            },
             "ENABLE_HALLOWEEN_POSSESSED_ANIMAL": true,
             "COLLECTABLES_TRICK_OR_TREAT": true,
             "ENABLE_CASINO_VIDEO2": true,
             "VW_AW_WV_12": 22500,
             "VW_AW_WV_28": 18200,
-            "_0xF4F10DB1": 22500,
+            "_0xF4F10DB1": {
+                "v": 22500,
+                "k": "vw_aw_ss_39a"
+            },
             "VW_AW_SS_39B": 22500,
             "VW_AW_SS_39C": 22500,
             "VW_AW_SS_39D": 22500,
             "VW_AW_SS_39E": 22500,
             "VW_AW_SS_39F": 22500,
             "ENABLE_VEHICLE_BTYPE2": true,
-            "_0x9F366FD2": true,
+            "_0x9F366FD2": {
+                "v": true
+            },
             "SUM_BB_CAPTURE_UFO_ENABLE": true,
             "BIKER_WEBSITE_LCC_SANCTUS": 1396500,
             "HALLOWEEN_2015_CHARIOT_LURCHER": 455000,
@@ -713,7 +870,10 @@
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_6": 83300,
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_7": 82950,
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_8": 77490,
-            "_0xFCA00766": 125300,
+            "_0xFCA00766": {
+                "v": 125300,
+                "k": "arena_clothes_scifi_morphsuit_9"
+            },
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_10": 115500,
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_11": 104930,
             "ARENA_CLOTHES_SCIFI_MORPHSUIT_12": 108850,
@@ -750,7 +910,10 @@
             "ARENA_CLOTHES_ALIEN_HEAD_MONSTROUS_4": 105980,
             "ARENA_CLOTHES_ALIEN_HEAD_MONSTROUS_5": 102851,
             "ARENA_CLOTHES_ALIEN_HEAD_MONSTROUS_6": 104580,
-            "_0xF6F5CE07": 103264,
+            "_0xF6F5CE07": {
+                "v": 103264,
+                "k": "arena_clothes_alien_head_monstrous_7"
+            },
             "ARENA_CLOTHES_ALIEN_HEAD_MONSTROUS_8": 103698,
             "ARENA_CLOTHES_ALIEN_HEAD_MONSTROUS_9": 101661,
             "ARENA_CLOTHES_ALIEN_HEAD_MONSTROUS_10": 104132,
@@ -794,12 +957,18 @@
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_3": "CLO_AWF_O_B_3",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_4": "CLO_AWF_O_B_4",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_5": "CLO_AWF_O_B_5",
-            "_0xF63D232F": "CLO_AWF_O_B_7",
+            "_0xF63D232F": {
+                "v": "CLO_AWF_O_B_7",
+                "k": "individual_clothing_sale_hash_labels_7"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_8": "CLO_AWF_O_B_8",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_9": "CLO_AWF_O_B_9",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_10": "CLO_AWF_O_B_10",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_11": "CLO_AWF_O_B_11",
-            "_0xF6BCA068": "CLO_AWF_O_B_12",
+            "_0xF6BCA068": {
+                "v": "CLO_AWF_O_B_12",
+                "k": "individual_clothing_sale_hash_labels_12"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_13": "CLO_AWF_O_B_13",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_14": "CLO_AWF_O_B_14",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_15": "CLO_AWF_O_B_15",
@@ -811,17 +980,26 @@
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_21": "CLO_AWF_O_C_5",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_22": "CLO_AWF_O_C_6",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_23": "CLO_AWF_O_C_7",
-            "_0xF88B1E29": "CLO_AWF_O_C_8",
+            "_0xF88B1E29": {
+                "v": "CLO_AWF_O_C_8",
+                "k": "individual_clothing_sale_hash_labels_24"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_25": "CLO_AWF_O_C_9",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_26": "CLO_AWF_O_C_10",
-            "_0xFA5921C5": "CLO_AWF_O_C_11",
+            "_0xFA5921C5": {
+                "v": "CLO_AWF_O_C_11",
+                "k": "individual_clothing_sale_hash_labels_27"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_28": "CLO_AWF_O_D_0",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_29": "CLO_AWF_O_D_1",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_30": "CLO_AWF_O_D_2",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_31": "CLO_AWF_O_D_3",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_32": "CLO_AWF_O_D_4",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_33": "CLO_AWF_O_D_5",
-            "_0xF5B01793": "CLO_AWF_O_D_6",
+            "_0xF5B01793": {
+                "v": "CLO_AWF_O_D_6",
+                "k": "individual_clothing_sale_hash_labels_34"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_35": "CLO_AWF_O_D_7",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_36": "CLO_AWF_O_D_8",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_37": "CLO_AWF_O_D_9",
@@ -877,14 +1055,20 @@
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_87": "CLO_AWM_O_B_1",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_88": "CLO_AWM_O_B_2",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_89": "CLO_AWM_O_B_3",
-            "_0xFCAFB42E": "CLO_AWM_O_B_4",
+            "_0xFCAFB42E": {
+                "v": "CLO_AWM_O_B_4",
+                "k": "individual_clothing_sale_hash_labels_90"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_91": "CLO_AWM_O_B_5",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_92": "CLO_AWM_O_B_6",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_93": "CLO_AWM_O_B_7",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_94": "CLO_AWM_O_B_8",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_95": "CLO_AWM_O_B_9",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_96": "CLO_AWM_O_B_10",
-            "_0xFF873A3D": "CLO_AWM_O_B_11",
+            "_0xFF873A3D": {
+                "v": "CLO_AWM_O_B_11",
+                "k": "individual_clothing_sale_hash_labels_97"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_98": "CLO_AWM_O_B_12",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_99": "CLO_AWM_O_B_13",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_100": "CLO_AWM_O_B_14",
@@ -915,13 +1099,19 @@
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_125": "CLO_AWM_O_D_11",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_126": "CLO_AWM_O_E_0",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_127": "CLO_AWM_O_E_1",
-            "_0xF831421B": "CLO_AWM_O_E_2",
+            "_0xF831421B": {
+                "v": "CLO_AWM_O_E_2",
+                "k": "individual_clothing_sale_hash_labels_128"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_129": "CLO_AWM_O_E_3",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_130": "CLO_AWM_O_E_4",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_131": "CLO_AWM_O_E_5",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_132": "CLO_AWM_O_E_6",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_133": "CLO_AWM_O_E_7",
-            "_0xF574401D": "CLO_AWM_O_E_8",
+            "_0xF574401D": {
+                "v": "CLO_AWM_O_E_8",
+                "k": "individual_clothing_sale_hash_labels_134"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_135": "CLO_AWM_O_E_9",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_136": "CLO_AWM_O_E_10",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_137": "CLO_AWM_O_E_11",
@@ -953,7 +1143,10 @@
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_165": "CLO_AWM_O_H_5",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_166": "CLO_AWM_O_H_6",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_167": "CLO_AWM_O_H_7",
-            "_0xF639286F": "CLO_AWM_O_H_8",
+            "_0xF639286F": {
+                "v": "CLO_AWM_O_H_8",
+                "k": "individual_clothing_sale_hash_labels_168"
+            },
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_169": "CLO_AWM_O_H_9",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_170": "CLO_AWM_O_I_1",
             "INDIVIDUAL_CLOTHING_SALE_HASH_LABELS_171": "CLO_AWM_O_I_2",
@@ -1014,7 +1207,10 @@
             "GR_MASKS_GREEN_PAINTED_SKULL": 0,
             "GR_MASKS_MUSTARD_PAINTED_SKULL": 0,
             "GR_MASKS_ORANGE_SWIRLEYED_SKULL": 0,
-            "_0xFA5206F6": 0,
+            "_0xFA5206F6": {
+                "v": 0,
+                "k": "gr_masks_leather_solareyed_skull"
+            },
             "GR_MASKS_TERRACOTTA_SKULL": 0,
             "GR_MASKS_STRIPED_SKULL": 0,
             "IMPEXP_MASKS_AMPHIBIAN_SEA_BEAST": 0,
@@ -1042,7 +1238,10 @@
             "HALLOWEEN_2015_GRAY_LYCANTHROPE": 0,
             "HALLOWEEN_2015_GREEN_TOXIC_INSECT": 0,
             "HALLOWEEN_2015_RED_TOXIC_INSECT": 0,
-            "_0xF7264450": 0,
+            "_0xF7264450": {
+                "v": 0,
+                "k": "halloween_2015_purple_toxic_insect"
+            },
             "HALLOWEEN_2015_DIRTY_SEWER_CREATURE": 0,
             "HALLOWEEN_2015_ROTTEN_SEWER_CREATURE": 0,
             "HALLOWEEN_2015_SCABBY_SEWER_CREATURE": 0,
@@ -1076,8 +1275,14 @@
             "LTS_M_GREEN_SKELETAL": 0,
             "LTS_F_BLACK_SKELETAL": 0,
             "LTS_F_GRAY_SKELETAL": 0,
-            "_0xFE68592D": 0,
-            "_0xFC7BFC94": 0,
+            "_0xFE68592D": {
+                "v": 0,
+                "k": "lts_f_charcoal_skeletal"
+            },
+            "_0xFC7BFC94": {
+                "v": 0,
+                "k": "lts_f_tan_skeletal"
+            },
             "LTS_F_GREEN_SKELETAL": 0,
             "DLC_VILE_ZOMBIE_HOCKEY": 0,
             "DLC_ROTTEN_ZOMBIE_HOCKEY": 0,
@@ -1100,14 +1305,20 @@
             "DISCOUNT_FEMALE_MASKS_WHITE_MONSTER": 0,
             "DISCOUNT_FEMALE_MASKS_SILVER_SKULL": 0,
             "DISCOUNT_FEMALE_MASKS_BONE_SKULL": 0,
-            "_0xF4DD86AB": 0,
+            "_0xF4DD86AB": {
+                "v": 0,
+                "k": "discount_female_masks_gray_skull"
+            },
             "DISCOUNT_FEMALE_MASKS_BLACK_SKULL": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_1": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_2": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_3": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_4": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_5": 0,
-            "_0xF8EB596A": 0,
+            "_0xF8EB596A": {
+                "v": 0,
+                "k": "arena_clothes_space_goggles_6"
+            },
             "ARENA_CLOTHES_SPACE_GOGGLES_7": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_8": 0,
             "ARENA_CLOTHES_SPACE_GOGGLES_9": 0,
@@ -1125,7 +1336,10 @@
             "ARENA_CLOTHES_SPACE_RIFLER_OLD_1": 0,
             "ARENA_CLOTHES_SPACE_RIFLER_OLD_2": 0,
             "ARENA_CLOTHES_SPACE_RIFLER_OLD_3": 0,
-            "_0xFCC44BD9": 0,
+            "_0xFCC44BD9": {
+                "v": 0,
+                "k": "arena_clothes_space_rifler_old_4"
+            },
             "ARENA_CLOTHES_SPACE_RIFLER_OLD_5": 0,
             "ARENA_CLOTHES_SPACE_RIFLER_OLD_6": 0,
             "ARENA_CLOTHES_SPACE_RIFLER_OLD_7": 0,
@@ -1145,7 +1359,10 @@
             "ARENA_CLOTHES_LEATHER_FEATHER_9": 0,
             "ARENA_CLOTHES_LEATHER_FEATHER_10": 0,
             "ARENA_CLOTHES_LEATHER_FEATHER_11": 0,
-            "_0xF9408B6A": 0,
+            "_0xF9408B6A": {
+                "v": 0,
+                "k": "arena_clothes_leather_feather_12"
+            },
             "ARENA_CLOTHES_HOODED_MAW_MASK_1": 0,
             "ARENA_CLOTHES_HOODED_MAW_MASK_2": 0,
             "ARENA_CLOTHES_HOODED_MAW_MASK_3": 0,
@@ -1175,7 +1392,10 @@
             "IMPEXP_MASKS_BLUE_CLOWN": 0,
             "IMPEXP_MASKS_GREEN_CLOWN": 0,
             "IMPEXP_MASKS_ORANGE_CLOWN": 0,
-            "_0xFE4356F4": 0,
+            "_0xFE4356F4": {
+                "v": 0,
+                "k": "impexp_masks_scavenger_clown"
+            },
             "IMPEXP_MASKS_NEON_CLOWN": 0,
             "IMPEXP_MASKS_FRANKEN_CLOWN": 0,
             "IMPEXP_MASKS_SINISTER_CLOWN": 0,
@@ -1201,13 +1421,19 @@
             "SMUG_MALE_AND_FEMALE_MASKS_YELLOW_MANDIBLE": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_ZEBRA_MANDIBLE": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_WHITE_MANDIBLE": 0,
-            "_0xF6E3D451": 0,
+            "_0xF6E3D451": {
+                "v": 0,
+                "k": "smug_male_and_female_masks_black_robo"
+            },
             "SMUG_MALE_AND_FEMALE_MASKS_BLUE_DIGITAL_ROBO": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_BROWN_DIGITAL_ROBO": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_GREEN_DIGITAL_ROBO": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_FALL_ROBO": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_DARK_WOODLAND_ROBO": 0,
-            "_0xF527F08A": 0,
+            "_0xF527F08A": {
+                "v": 0,
+                "k": "smug_male_and_female_masks_crosshatch_robo"
+            },
             "SMUG_MALE_AND_FEMALE_MASKS_GRAY_WOODLAND_ROBO": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_AQUA_CAMO_ROBO": 0,
             "SMUG_MALE_AND_FEMALE_MASKS_SPLINTER_ROBO": 0,
@@ -1250,7 +1476,10 @@
             "TATTOO_MP_FM_09_EXPENDITURE_TUNABLE": 0,
             "TATTOO_MP_FM_13_EXPENDITURE_TUNABLE": 0,
             "TATTOO_MP_FM_22_EXPENDITURE_TUNABLE": 0,
-            "_0xFE3363DA": 0,
+            "_0xFE3363DA": {
+                "v": 0,
+                "k": "tattoo_mp_fm_40_expenditure_tunable"
+            },
             "TATTOO_MP_FM_41_EXPENDITURE_TUNABLE": 0,
             "TATTOO_MP_FM_42_EXPENDITURE_TUNABLE": 0,
             "TATTOO_MP_FM_46_EXPENDITURE_TUNABLE": 0,
@@ -1284,7 +1513,10 @@
             "IH_TATTOO_PINEAPPLE_SKULL": 0,
             "IH_TATTOO_SKULLPHONES": 0,
             "IH_TATTOO_SKULL_WATERS": 0,
-            "_0xF637390C": 0,
+            "_0xF637390C": {
+                "v": 0,
+                "k": "fixer_tattoo_graffiti_skull"
+            },
             "SU22_TATTOO_SKULL_GRENADE": 0,
             "SU22_TATTOO_BRANCHED_SKULL": 0,
             "SU22_TATTOO_LASER_EYES_SKULL": 0,
@@ -1313,7 +1545,10 @@
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_14": "TAT_X2_000",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_15": "TAT_X2_012",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_16": "TAT_LX_003",
-            "_0xF86E0953": "TAT_L2_028",
+            "_0xF86E0953": {
+                "v": "TAT_L2_028",
+                "k": "individual_tattoo_sale_hash_labels_17"
+            },
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_18": "TAT_ST_000",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_19": "TAT_ST_001",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_20": "TAT_ST_033",
@@ -1338,7 +1573,10 @@
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_39": "TAT_H4_021",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_40": "TAT_H4_024",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_41": "TAT_H4_027",
-            "_0xFDBAA1CC": "TAT_H4_028",
+            "_0xFDBAA1CC": {
+                "v": "TAT_H4_028",
+                "k": "individual_tattoo_sale_hash_labels_42"
+            },
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_43": "TAT_FX_021",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_44": "TAT_SB_017",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_45": "TAT_SB_018",
@@ -1346,7 +1584,10 @@
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_47": "TAT_SB_037",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_48": "TAT_SB_042",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_49": "TAT_SB_044",
-            "_0xF79EA1BC": "TAT_SB_053",
+            "_0xF79EA1BC": {
+                "v": "TAT_SB_053",
+                "k": "individual_tattoo_sale_hash_labels_50"
+            },
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_51": "TAT_SB_055",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_52": "TAT_X6_002",
             "INDIVIDUAL_TATTOO_SALE_HASH_LABELS_53": "TAT_X6_012",
@@ -1381,8 +1622,7 @@
             "GR_TRUCK_PROPERTY_JOBUILT_HAULER_CUSTOM": 980000,
             "CH_BIN_PRICE_BURRITO2": 418950,
             "CH_TRADE_PRICE_BURRITO2": 315000,
-            "VC_SALE_PRICE_KRIEGER": 0,
-            "_0x05832315": true
+            "VC_SALE_PRICE_KRIEGER": 0
         },
         "CONTENT_MODIFIER_0": {
             "JOB_RP_CAP": 20000
@@ -1390,33 +1630,74 @@
         "CONTENT_MODIFIER_1": {
             "CASH_MULTIPLIER": 3,
             "JOB_RP_CAP": 30000,
-            "_0x2BF849C0": true
+            "_0x2BF849C0": {
+                "v": true
+            }
         },
         "MP_Global": {
-            "_0x19EEFD4F": true,
+            "ENABLE_PLAYED_WITH_PLAYER_ARRAY": true,
+            "_0xD8135951": {
+                "v": true,
+                "k": "enable_played_with_metric"
+            },
             "SCRIPT_MP_TIMEOUT": 140000,
             "SCRIPT_MP_TIMEOUT_SHORT": 90000,
             "SCRIPT_MP_TIMEOUT_LONG": 180000,
-            "_0x09FADE43": 9999,
-            "_0x6C3FF5A9": 9999,
-            "_0x100A27DF": 9999,
-            "_0x23215EAC": 9999,
-            "_0x19CB34B3": true,
-            "_0xE909347A": true,
-            "_0x7303CE2B": true,
-            "_0xE6221A55": true,
-            "_0x1C8197F4": true,
-            "_0x304F1283": true,
-            "_0xDE544DB7": 1,
-            "_0xC7404A45": 0,
-            "_0xA6663880": true
+            "_0x09FADE43": {
+                "v": 9999
+            },
+            "_0x6C3FF5A9": {
+                "v": 9999
+            },
+            "_0x100A27DF": {
+                "v": 9999
+            },
+            "_0x23215EAC": {
+                "v": 9999
+            },
+            "_0x19CB34B3": {
+                "v": true
+            },
+            "_0xE909347A": {
+                "v": true
+            },
+            "_0x7303CE2B": {
+                "v": true
+            },
+            "_0xE6221A55": {
+                "v": true
+            },
+            "_0x1C8197F4": {
+                "v": true
+            },
+            "_0x304F1283": {
+                "v": true
+            },
+            "_0xDE544DB7": {
+                "v": 1
+            },
+            "_0xC7404A45": {
+                "v": 0
+            },
+            "_0xA6663880": {
+                "v": true
+            }
         },
         "CD_GLOBAL": {
             "ENABLE_SAVE_MIGRATION": true,
-            "_0xC5FE0EEF": true,
-            "_0xEBC517AE": true,
-            "_0x740C2AB3": 474,
-            "_0xC49477F5": 474
+            "_0xC5FE0EEF": {
+                "v": true
+            },
+            "_0xEBC517AE": {
+                "v": true
+            },
+            "_0x740C2AB3": {
+                "v": 474,
+                "k": "tunable_version"
+            },
+            "_0xC49477F5": {
+                "v": 474
+            }
         }
     }
 }
